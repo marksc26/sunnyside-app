@@ -36,9 +36,9 @@ const Footer = () => {
         <div className='flex flex-col items-center'>
             <img src={logo2} className='my-8' alt="" />
             <ul className='text-[#007261] font-Barlow flex flex-row justify-around gap-7' >
-                <li>About</li>
-                <li>Services</li>
-                <li>Projects</li>
+                <li><a href="#ab">About</a></li>
+                <li><a href="#se">Services</a></li>
+                <li><a href="#pr">Projects</a></li>
             </ul>
             <div id='co' className='flex flex-row my-16 gap-4'>
                 <img src={facebook} alt="" />

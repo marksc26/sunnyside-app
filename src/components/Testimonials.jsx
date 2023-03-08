@@ -5,7 +5,7 @@ import imgJennie from '../images/image-jennie.jpg'
 
 const Testimonials = () => {
   return (
-    <section className='text-center'>
+    <section className='text-center 2xl:px-72 pb-20'>
         <h1 className='my-10 text-gray-400 text-md font-Fraunces tracking-widest md:pt-20'>CLIENT TESTIMONIALS</h1>
         <div className='sm:flex flex-row pt-6'>
            <div className='mb-10'>

@@ -11,7 +11,7 @@ import cupImgDesktop from '../images/imgDesktoop/image-stand-out.jpg'
 
 const MainInfo = () => {
   return (
-    <section>
+    <section id='home'>
         <div className="relative">
             <img src={imgHeader} className='w-full h-auto sm:hidden'  alt="" />
             <img src={imgHeaderDesktop} className='hidden sm:flex' alt="" />
@@ -20,16 +20,13 @@ const MainInfo = () => {
                 <img src={arrow} className='w-10 mt-8 sm:mt-14' alt="" />
           </div>
         </div>
-        <div className='sm:grid grid-cols-2'>
+
+        <div className='sm:grid grid-cols-2 2xl:flex 2xl:justify-center 2xl:px-80'>
             <img src={eggImg} className='sm:hidden' alt="" />
 
             <div className='sm:order-last'>
                <img src={eggImgDesktop} className='hidden sm:flex' alt="" /> 
             </div>
-            
-            
-            
-
             <div id='ab' className='py-12 px-5 text-center sm:order-first sm:p-0 flex flex-col sm:justify-center'>
                 <h1 className='font-bold text-3xl mx-10 mb-6 font-Fraunces sm:text-xl sm:mx-0 sm:text-left px-8 md:text-3xl'>Transform your brand</h1>
                 <p className='text-md text-center text-gray-500 mb-8 font-Barlow sm:text-sm sm:text-left md:text-lg px-8'> We are a full-service creative agency specializing in helping brands grow fast. 
@@ -38,9 +35,12 @@ const MainInfo = () => {
             </div>
            
         </div>
-        <div className='sm:grid grid-cols-2'>
+        <div className='sm:grid grid-cols-2  2xl:flex 2xl:justify-center 2xl:px-80'>
             <img src={cupImg} className='sm:hidden' alt="" />
-            <img src={cupImgDesktop} className='hidden sm:flex' alt="" />
+            <div>
+               <img src={cupImgDesktop} className='hidden sm:flex' alt="" /> 
+            </div>
+            
             <div className='py-12 px-5 text-center sm:p-0 flex flex-col sm:justify-center'>
                 <h1 className='font-bold text-3xl mx-10 mb-6 font-Fraunces sm:text-xl sm:mx-0 sm:text-left px-8 md:text-3xl'>Stand out to the right audience</h1>
                 <p className='text-md text-center text-gray-500 mb-8 font-Barlow sm:text-sm sm:text-left md:text-lg px-8'>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
@@ -48,8 +48,8 @@ const MainInfo = () => {
             </div>
           
         </div>
-        <div className='sm:grid grid-cols-2'>
-             <div className='relative'>
+        <div className='sm:grid grid-cols-2 2xl:flex 2xl:justify-center 2xl:px-80'>
+            <div className='relative'>
             <img id='se' src={graphicDImg} alt="" />
             <div className='absolute top-0 left-0 w-full h-full flex flex-col items-center justify-end  md:pb-8'>
                 <h1 className='text-3xl mb-8 font-Fraunces text-[#005347]'>Graphic design</h1>
