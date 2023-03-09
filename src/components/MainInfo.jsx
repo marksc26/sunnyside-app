@@ -10,14 +10,15 @@ import eggImgDesktop from '../images/imgDesktoop/image-transform.jpg'
 import cupImgDesktop from '../images/imgDesktoop/image-stand-out.jpg'
 
 const MainInfo = () => {
+
   return (
     <section id='home'>
         <div className="relative">
             <img src={imgHeader} className='w-full h-auto sm:hidden'  alt="" />
             <img src={imgHeaderDesktop} className='hidden sm:flex' alt="" />
              <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center sm:-top-10">
-                <h1 className="text-white text-4xl font-bold mx-4 text-center font-Fraunces sm:tracking-widest sm:text-5xl">WE ARE CREATIVES</h1>
-                <img src={arrow} className='w-10 mt-8 sm:mt-14' alt="" />
+                <h1 className="text-white text-4xl font-bold mx-4 text-center font-Fraunces sm:tracking-widest sm:text-2xl md:text-2xl md:mt-8 lg:text-4xl 2xl:text-6xl">WE ARE CREATIVES</h1>
+                <img src={arrow} className='w-10 mt-8 sm:mt-2 sm:w-6 md:mt-6 md:w-8 lg:w-9 2xl:w-14' alt="" />
           </div>
         </div>
 
