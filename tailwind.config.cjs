@@ -14,10 +14,12 @@ module.exports = {
     },
     screens:{
       "sm":"640px",
-      "md": "768px",
-      "lg": "1024px",
-      "xl": "1280px",
-      "2xl": "1400px"
+      "md": "728px",
+      "lg": "959px",
+      "xl": "1214px",
+      "2xl": "1440px",
+      "3xl": "1741px",
+      "4xl": "1820px"
     }
    
   },

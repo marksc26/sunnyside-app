@@ -34,21 +34,21 @@ const Footer = () => {
 
 
         <div className='flex flex-col items-center'>
-            <img src={logo2} className='my-8' alt="" />
+            <img src={logo2} className='my-8 3xl:w-40' alt="" />
             <ul className='text-[#007261] font-Barlow flex flex-row justify-around gap-7' >
-                <li><a href="#ab">About</a></li>
-                <li><a href="#se">Services</a></li>
-                <li><a href="#pr">Projects</a></li>
+                <li className='3xl:text-lg'><a href="#ab">About</a></li>
+                <li className='3xl:text-lg' ><a href="#se">Services</a></li>
+                <li className='3xl:text-lg'><a href="#pr">Projects</a></li>
             </ul>
             <div id='co' className='flex flex-row my-16 gap-4'>
-                <img src={facebook} alt="" />
-                <img src={instagram} alt="" />
-                <img src={twitter} alt="" />
-                <img src={pinterest} alt="" />
+                <img src={facebook} className='xl:w-8' alt="" />
+                <img src={instagram }className='xl:w-8' alt="" />
+                <img src={twitter} className='xl:w-8' alt="" />
+                <img src={pinterest}className='xl:w-8' alt="" />
             </div>
             <div className='flex flex-col items-center'>
-                <p className='text-[#007261] pb-2 font-Fraunces text-xs'>Developed by:</p>
-                <img src={logoDev} className='w-28 pb-10' alt="" />
+                <p className='text-[#007261] pb-2 font-Fraunces text-xs 3xl:text-lg'>Developed by:</p>
+                <img src={logoDev} className='w-28 pb-10 3xl:w-36' alt="" />
                 
             </div>
         </div>
