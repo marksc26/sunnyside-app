@@ -41,10 +41,10 @@ const Footer = () => {
                 <li className='3xl:text-lg'><a href="#pr">Projects</a></li>
             </ul>
             <div id='co' className='flex flex-row my-16 gap-4'>
-                <img src={facebook} className='xl:w-8' alt="" />
-                <img src={instagram }className='xl:w-8' alt="" />
-                <img src={twitter} className='xl:w-8' alt="" />
-                <img src={pinterest}className='xl:w-8' alt="" />
+                <img src={facebook} className='2xl:w-8' alt="" />
+                <img src={instagram }className='2xl:w-8' alt="" />
+                <img src={twitter} className='2xl:w-8' alt="" />
+                <img src={pinterest}className='2xl:w-8' alt="" />
             </div>
             <div className='flex flex-col items-center'>
                 <p className='text-[#007261] pb-2 font-Fraunces text-xs 3xl:text-lg'>Developed by:</p>
